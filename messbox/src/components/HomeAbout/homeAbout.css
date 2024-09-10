@@ -1,0 +1,10 @@
+.about_img {
+    position: relative;
+    display: inline-block;
+}
+  
+
+.about_left img {
+    width: 400px;
+    height: 300px;
+}

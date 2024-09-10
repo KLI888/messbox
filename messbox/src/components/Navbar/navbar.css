@@ -1,0 +1,23 @@
+.navbar {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav_left img {
+    width: 120px;
+}
+.navbar .nav_right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav_right ul li {
+    list-style: none;
+}
+
+.nav_right .btn {
+
+}
