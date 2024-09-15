@@ -11,10 +11,12 @@
 
 * {
   font-family: "Poppins", system-ui;
+  margin: 0;
 }
 
 
 .main_section {
+  /* position: relative; */
 }
 
 a {
@@ -22,6 +24,9 @@ a {
 }
 
 /* btn design */
+.btn_color {
+  background: linear-gradient(90deg, rgb(255, 115, 72) 0%, rgb(255, 167, 29) 100%);;
+}
 .btn {
   text-decoration: none;
   /* background-color: 15px; */

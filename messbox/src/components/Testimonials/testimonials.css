@@ -1,0 +1,62 @@
+.testomonials_container {
+    padding: 100px 0;
+}
+.testomonials_heading {
+    padding-bottom: 30px;
+    text-align: center;
+}
+.testomonials_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.testomonials_card {
+    background-color: white;
+    width: 330px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
+
+}
+.testomonials_card .user_info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.testomonials_card img {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+.testomonials_card h2 {
+    font-size: 18px;
+    color: #48292d;
+    margin-left: 20px;
+}
+.testomonials_card .user_info h2 span {
+    color: black;
+    font-size: 14px;
+    font-weight: 200;
+}
+.testomonials_card p {
+    font-size: 14px;
+    color: dimgrey;
+}
+.testomonials_card .user_rating {
+    margin-top: 20px;
+    color: #f4b53f;
+    font-size: 22px;
+}
+
+
+
+@media (max-width: 768px) {
+    
+    .testomonials_card {
+        width: 290px;
+        padding: 17px;
+    }
+}

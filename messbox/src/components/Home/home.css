@@ -1,0 +1,105 @@
+.home_container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    overflow: hidden;
+    background-image: url("/src//assets/messbox.png");
+    /* width: 100vw; */
+    height: 100vh;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+
+.home_left {
+    margin-top: 120px;
+    flex: 1;
+    padding: 20px;
+}
+.home_right {
+    flex: 1;
+    position: relative;
+}
+.home_right .try_mess_btn {
+    position: absolute;
+    bottom: 20px;
+    left: 160px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.home_left .home_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding-right: 100px;
+}
+.home_left .home_heading {
+    /* font-size: 38px; */
+    font-size: 2.2rem;
+    line-height: 100px;
+    color: #111;
+}
+.home_left .home_heading h1:last-child {
+    color: rgb(250, 164, 26);
+}
+
+.home_left .home_info p {
+    font-size: 15px;
+    color: grey;
+    padding-right: 50px;
+    padding: 0 50px 0 20px;
+}
+
+.home_left .home_find_mess {
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+}
+.home_find_mess select {
+    width: 250px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(250, 164, 26);
+    border-radius: 15px;
+    padding: 16px;
+    font-size: 18px;
+}
+.home_left .find_mess_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.home_left .home_scale {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.home_scale .scale_sec {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.scale_sec i {
+    color: rgb(250, 164, 26);
+    font-size: 30px;
+}
+
+
+
+@media (max-width: 1390px) {
+    
+}
